@@ -1,0 +1,7 @@
+parameters:
+#    bdbd_ez_feed.example.class: BD\Bundle\BDEzFeedBundle\Example
+
+services:
+#    bdbd_ez_feed.example:
+#        class: %bdbd_ez_feed.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

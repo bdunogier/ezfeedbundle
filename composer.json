@@ -1,0 +1,21 @@
+{
+    "name": "bdunogier/ezfeedbundle",
+    "description": "Feeds (RSS, ATOM) for eZ Publish 5",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Bertrand Dunogier",
+            "homepage": "https://github.com/bdunogier/ezfeedbundle"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.3",
+        "ezsystems/ezpublish-kernel": "*",
+        "nekland/feed-bundle": "2.0.*"
+    },
+    "autoload": {
+        "psr-0": {"BD\\Bundle\\EzFeedBundle": ""}
+    },
+    "target-dir": "BD/Bundle/EzFeedBundle"
+}
